@@ -1,0 +1,17 @@
+{
+  "name": "voice-scheduling-agent",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "node scripts/free-ports.cjs 3000 8080 && concurrently -n API,WEB -c green,cyan \"npm run dev -w @voice-agent/api\" \"npm run dev -w @voice-agent/web\"",
+    "build": "npm run build -w @voice-agent/api && npm run build -w @voice-agent/web",
+    "start": "npm run start -w @voice-agent/api",
+    "test": "npm run test -w @voice-agent/api"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

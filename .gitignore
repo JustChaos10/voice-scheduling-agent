@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.next/
+.next-local/
+coverage/
+.turbo/
+.DS_Store
+*.log
+.env
+.env.local
+apps/api/.env
+apps/web/.env.local
+*service-account*.json
+*gcp-key*.json
+*credentials*.json
