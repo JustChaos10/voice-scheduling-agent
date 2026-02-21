@@ -1,8 +1,3 @@
-# Screenshot Placeholder
+# Screenshots
 
-Add your calendar confirmation screenshot here, for example:
-
-- `event-created.png`
-
-Then reference it in the root `README.md`.
-
+- `event-created.png`: Screenshot showing the created Google Calendar event.

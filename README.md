@@ -11,9 +11,9 @@ Browser-based voice scheduling assistant that:
 ## Deployed Links
 
 - GitHub Repository: `https://github.com/JustChaos10/voice-scheduling-agent`
-- Frontend (Vercel): `ADD_YOUR_VERCEL_URL`
-- Backend API (Railway): `ADD_YOUR_RAILWAY_URL`
-- Demo video (OBS/Loom): `ADD_YOUR_VIDEO_LINK`
+- Frontend (Vercel): `https://voice-scheduling-agent-web.vercel.app`
+- Backend API (Railway): `https://voice-agentapi-production.up.railway.app`
+- Demo video (OBS): `https://github.com/JustChaos10/voice-scheduling-agent/blob/main/docs/demo/booking-demo.mp4`
 
 ## Repository Structure
 
@@ -151,12 +151,8 @@ npm run test
 
 ## Submission Artifacts
 
-- Demo walkthrough video (OBS/Loom): `ADD_YOUR_VIDEO_LINK`
-- Screenshot of created event: add under `docs/screenshots/` and reference here.
-
-Example screenshot reference:
-
-`docs/screenshots/event-created.png`
+- Demo walkthrough video (OBS): `https://github.com/JustChaos10/voice-scheduling-agent/blob/main/docs/demo/booking-demo.mp4`
+- Screenshot of created event: `https://github.com/JustChaos10/voice-scheduling-agent/blob/main/docs/screenshots/event-created.png`
 
 ## Notes
 
