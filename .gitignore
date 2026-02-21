@@ -13,3 +13,4 @@ apps/web/.env.local
 *service-account*.json
 *gcp-key*.json
 *credentials*.json
+*.tsbuildinfo
